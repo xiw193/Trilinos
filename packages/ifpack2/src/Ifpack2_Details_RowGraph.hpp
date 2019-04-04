@@ -109,7 +109,7 @@ public:
   bool IFPACK2_DEPRECATED
   isLowerTriangular () const final
   {
-    throwBecauseDeprecated ("isLowerTriangular");    
+    throwBecauseDeprecated ("isLowerTriangular");
     return false;
   }
 
@@ -118,8 +118,8 @@ public:
   /// \warning This method is DEPRECATED and will be removed soon!
   bool IFPACK2_DEPRECATED isUpperTriangular() const final
   {
-    throwBecauseDeprecated ("isUpperTriangular");    
-    return false;    
+    throwBecauseDeprecated ("isUpperTriangular");
+    return false;
   }
 };
 
