@@ -144,7 +144,7 @@ template< class FunctorType >
 class ParallelFor< FunctorType , MPVectorWorkConfig< Cuda > > {
 public:
 
-  typedef Kokkos::RangePolicy< Traits ... > Policy;
+  typedef Kokkos::RangePolicy< Cuda > Policy;
 
   const FunctorType m_functor ;
   const MPVectorWorkConfig< Cuda > m_config;
